@@ -5,7 +5,7 @@ async function status(request, response) {
 
   const dbVersionResult = await database.query("show server_version;");
   const dbVersion = dbVersionResult.rows[0].server_version;
-  
+
   const dbMaxConnectionsResult = await database.query("show max_connections");
   const dbMaxConnections = dbMaxConnectionsResult.rows[0].max_connections;
 
@@ -23,7 +23,7 @@ async function status(request, response) {
         version: dbVersion,
         max_connections: parseInt(dbMaxConnections),
         opened_connections: dbConnections,
-      }
+      },
     },
   });
 }
