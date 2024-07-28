@@ -3,8 +3,8 @@ function Home() {
     <div>
       <h1>AIPoint</h1>
       <p>
-        "AiPoint" é uma combinação de "AI" (abreviação de inteligência
-        artificial) e "Point" (ponto).
+        AiPoint é uma combinação de AI (abreviação de inteligência artificial) e
+        Point (ponto).
       </p>
       <p>
         O nome sugere um ponto de referência ou um local centralizado para
